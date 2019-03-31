@@ -1,0 +1,66 @@
+﻿Activity II
+	1	A card is part of a deck
+	2.	6
+	3.	String[] ranks = {"2", "3", "4", "5", "6", "7", "8",
+			"9", "10", "Jack", "Queen", "King" "Ace"};
+		String[] suits = {"Diamonds", "Clubs", "Hearts", "Spades"};
+		int[] pointValues = {2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11};
+	4.	No
+	
+Activity III
+	1.	import java.util.Random;
+		Random r = new Random();
+		String ee = "";
+		r.nextInt(2);
+		if (r = 0){
+			ee = "tails";
+			return ee;
+		} else {
+			ee = "heads";
+			return ee;
+		}
+	2.	public static boolean arePermutations (int[] array1, int[] 				array2) {
+			if (array1.length = array2.length){
+				for (int x = 0; x < array1.length; x++) {
+					if (array1[x] = array2[x]){
+						return false;
+					}
+				return true;
+				} 
+			} else {
+			return false;
+			}
+	3.	 0, 1, 1
+
+Activity VI
+	1.	(5 of Clubs and 6 of Clubs) and (5 of Spades and 6 of Clubs)
+	2.	Yes, or else the game would have ended and you would have lost. You can only replace two cards at any time except when there is a JQK set.
+	3.	No. When choosing between two different pairs, the outcome will still be the same.
+	
+Activity VII
+	1.	Cards
+	2.	Create Cards
+		Create Board
+		Shuffle Cards
+		Put in 3x3 grid
+		Check if any cards add up to 11 or if 3x3 contains jack, queen, king
+		Replace cards
+		Repeat until you win or lose
+	3.	No
+	4.	A. In newGame method
+		B. isLegal and anotherPlayIsPossible
+		C. 
+		D. public static printCards (ElevensBoard board){
+			List <Integer> cIndexes = board.cardIndexes();
+			for (int x = 0; x < board.length; x++){
+			System.out.println(cIndexes.get(x);
+			}
+		   }
+		E. anotherPlayIsPossible
+
+Activity VIII
+	1.	
+	
+Activity IX
+	1.	There is a .size in Java
+	2.	
